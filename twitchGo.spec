@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['main.py', 'goBoard.py', 'gtp.py', 'render.py', 'tpcdb.py', 'util.py'],
+a = Analysis(['main.py', 'goBoard.py', 'gtp.py', 'render.py', 'tpgdb.py', 'util.py'],
              pathex=['/home/lila/twitchGo'],
              binaries=[],
              datas=[],

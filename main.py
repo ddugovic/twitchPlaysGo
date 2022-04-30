@@ -19,7 +19,7 @@ from kivy.config import Config
 from time import sleep
 from datetime import date
 from collections import deque
-import tpcdb
+import tpgdb
 from util import *
 import random
 from textwrap import wrap
@@ -31,7 +31,7 @@ secrets = configparser.ConfigParser()
 temp = open("secrets.conf")
 secrets.read_file(temp)
 
-db = tpcdb.conn()
+db = tpgdb.conn()
 
 bot = commands.Bot(
     irc_token=secrets['DEFAULT']['oath'],
