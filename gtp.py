@@ -2,7 +2,7 @@ import socket
 import subprocess
 from goBoard import b
 
-__all__ = ['FailedCommand', 'GoTextPipe', 'GoTextPipe']
+__all__ = ['FailedCommand', 'GoTextPipe']
 
 
 class FailedCommand(Exception):
