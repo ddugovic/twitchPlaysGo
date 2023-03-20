@@ -4,4 +4,4 @@ matplotlib==3.7.1
 numpy==1.24.2
 Pillow==9.4.0
 regex==2022.10.31
-twitchio==2.5.0
+twitchio==2.6.0
