@@ -48,7 +48,7 @@ jobs:
         make test
 
     - name: Package Application
-      uses: Alcance-Innovation-Consulting/pyinstaller-action-windows@main
+      uses: JackMcKew/pyinstaller-action-windows@main
       with:
         path: .
         spec: twitchGo.spec
