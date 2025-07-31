@@ -3,5 +3,5 @@ kivy==2.3.1
 matplotlib==3.10.1
 numpy==2.2.4
 Pillow==11.3.0
-regex==2025.7.31
+regex==2025.7.34
 twitchio==2.10.0
