@@ -1,7 +1,7 @@
 gomill==0.8.3
 kivy==2.3.1
 matplotlib==3.10.6
-numpy==2.2.4
+numpy==2.3.3
 Pillow==11.3.0
 regex==2025.9.18
 twitchio==3.1.0
